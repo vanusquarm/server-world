@@ -1,7 +1,7 @@
 import express from 'express';
 import { ApolloServer, gql } from 'apollo-server-express';
-import typeDefs from './typeDefs.js';
-import resolvers from './resolvers.js';
+import typeDefs from './typeDefs/index.js';
+import resolvers from './resolvers/index.js';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';

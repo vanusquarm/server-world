@@ -1,4 +1,4 @@
-import Store from './models/store.js'
+import Store from '../models/store.js'
 const resolvers = {
     Query: {
         welcome: () => {

@@ -2,12 +2,12 @@
 //As a good practice, all modules must import models from the models.js
 
 
-import Item from './item.js'
+import Product from './product.js'
 import Store from './store.js'
 import Cart from './cart.js'
 
 const models = {
-  Item,
+  Product,
   Store,
   Cart
 }
