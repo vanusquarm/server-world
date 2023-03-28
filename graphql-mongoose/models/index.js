@@ -6,10 +6,9 @@ import Product from './product.js'
 import Store from './store.js'
 import Cart from './cart.js'
 
-const models = {
+export {
   Product,
   Store,
   Cart
-}
+};
 
-export default models;
